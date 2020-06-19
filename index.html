@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>cart</title>
+    
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-firestore.js"></script>
+
+  </head>
+
+  <body background="https://i0.wp.com/mainlymiles.com/wp-content/uploads/2018/08/groceries-background-e1533097069889.jpg?resize=1236%2C629&ssl=1">
+    
+
+   
+    <script src="https://unpkg.com/vue"></script>
+   
+    <script>
+
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAYdTuqKgPChgGjpWiQXsKA-mCMqbEBdEw",
+        authDomain: "test-b9f3e.firebaseapp.com",
+        databaseURL: "https://test-b9f3e.firebaseio.com",
+        projectId: "test-b9f3e",
+        storageBucket: "test-b9f3e.appspot.com",
+        messagingSenderId: "420920876346",
+        appId: "1:420920876346:web:3569d29e734618f7f58403",
+        measurementId: "G-FHBEEQ2WEW"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      // var db = firebase.firestore();
+      firebase.analytics();
+    </script>
+
+<script>
+
+
+</script>
+
+    
+
+<h1>List Of Products</h1>
+<div id="app" >
+
+ 
+</div>
+
+
+<script>
+
+
+    const app = new Vue({
+  el: '#app',
+  
+  data: () => ({
+     products:[],
+
+  })
+
+})
+
+</script>
+    
+
+
+  </body>
+</html>
